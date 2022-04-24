@@ -25,6 +25,7 @@ export const ThankYou = () => {
         <div id="imgDivTY">
           <YourSvg
             onClick={(e) => {
+              window.localStorage.setItem("rating", null);
               window.location.replace("/");
               return e.preventDefault;
             }}

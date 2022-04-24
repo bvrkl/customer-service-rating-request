@@ -91,8 +91,12 @@ export const Rating = (props) => {
           <div id="submit">
             <button
               onClick={(e) => {
-                window.location.replace("/thank-you");
-                return e.preventDefault;
+                if (window.localStorage.rating == "null") {
+                  return;
+                } else {
+                  window.location.replace("/thank-you");
+                  return e.preventDefault;
+                }
               }}
             >
               S U B M I T

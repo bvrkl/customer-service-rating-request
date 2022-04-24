@@ -1,0 +1,54 @@
+#yourSelection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 46, 56);
+  border-radius: 25px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+#yourSelection p {
+  color: hsl(25, 97%, 53%);
+}
+
+#imgDivTY {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+#boxTY {
+  font-family: "Overpass", sans-serif;
+  background-color: rgb(24, 33, 42);
+  width: 295px;
+  height: 325px;
+  padding: 25px;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#thankYou {
+  color: white;
+  text-align: center;
+}
+
+#thankYou h1 {
+  color: white;
+  font-size: 25px;
+}
+
+#thankYou p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+#imgDivTY:hover {
+  cursor: pointer;
+}
